@@ -1,4 +1,4 @@
-This is a simple Web App built to calculate your GPA
+This is a simple Web App built to calculate your GPA and Number of classes
 It Uses the streamlit api and module to handle the GUI interface
 The calculation of the GPA is based on the 10 point system i.e, each subject gets a grade between 4-10, and 0(fail, withdrawn, audit fail etc..)
 The System uses the following as reference to calculate the Grade Point of each subject:
