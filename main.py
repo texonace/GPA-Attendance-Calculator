@@ -5,6 +5,13 @@ import streamlit as gui
 import pandas
 import math
 
+open_sourece_plee = "Thank you for visiting this site. Please take some of your time to read and contribute to Open Source Foundations\
+    and organisations who are the White Knights of Computer Programming. GCC, LLVM, Python, Rust, Linux Kernel, FreeBSD, OpenBSD,\
+    NetBSD, Android, VS Code, Git, Eclipse,Node.js, TensorFlow, PyTorch, Scikit-learn, Pandas, Kubernetes, Docker,Blender, GIMP,\
+    FFmpeg, OpenCV, Redis, Apache Kafka, are just some of the examples of what great people have created,\
+    who were at one point were just like you sitting at their computer, Overflowing with passion and determinance, Who made\
+    the world of computers as great as it is today!"
+
 try:
     def round_up_half(value):
         # If the decimal part is exactly 0.5, round up
@@ -51,6 +58,7 @@ try:
             gui.subheader("You Did Fair But Try Harder Next Time You Got This!")
         else:
             gui.subheader("Bruh You Cooked LMAO")
+        gui.write(open_sourece_plee)
         gui.write(':red[Note:] The 4 point GPA is an estimate based on the 10 point scale and will vary slightly with your actual 4 point GPA.')
         gui.markdown("<p style='text-align: center; color: grey; margin-bottom: 5px'>Developed By Neeraj R Rugi</p>", unsafe_allow_html=True)
         gui.markdown("<p style='text-align: center; color:grey; margin-top:1px'>Under MIT License</p>", unsafe_allow_html=True)
