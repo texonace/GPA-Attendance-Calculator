@@ -57,9 +57,9 @@ try:
         elif final_gpa >=5:
             gui.subheader("You Did Fair But Try Harder Next Time You Got This!")
         else:
-            gui.subheader("Bruh You Cooked LMAO")
-        gui.write(open_sourece_plee)
+            gui.subheader("Bruh You Cooked LMAO")  
         gui.write(':red[Note:] The 4 point GPA is an estimate based on the 10 point scale and will vary slightly with your actual 4 point GPA.')
+        gui.write(open_sourece_plee)
         gui.markdown("<p style='text-align: center; color: grey; margin-bottom: 5px'>Developed By Neeraj R Rugi</p>", unsafe_allow_html=True)
         gui.markdown("<p style='text-align: center; color:grey; margin-top:1px'>Under MIT License</p>", unsafe_allow_html=True)
 
